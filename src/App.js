@@ -13,9 +13,49 @@ function App() {
     {value : 1, color : 'black'}
   ]
 
+  let CardJoue= [
+    {value: "+5",color: 'green'}
+  ]
+
+  let cardsAdversaire = [
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'}
+  ]
+
 
   return (
+    <div className="Global">
+    <div className="Adversaire">
+      {
+        cardsAdversaire.map((card)=>{
+          return <Card
+          value={card.value}
+          color={card.color}
+          
+          />
+        })
+      }
+
+
+    </div>
+    <div className="CarteJouee">
+      {
+        CardJoue.map((card)=>{
+          return <Card
+          value={card.value}
+          color={card.color}
+          />
+        })
+      }
+
+      
+    </div>
     <div className="App">
+
+
+      
 
       {
         cards.map((card)=>{
@@ -30,6 +70,7 @@ function App() {
       
      
       
+    </div>
     </div>
   );
 }

@@ -11,12 +11,14 @@ export default class Card extends React.Component {
 
     render(){
         return(
+            <div className='MainJoueur'>
             <div className='Card'>
                 <p
                     style={{'color': this.props.color}}
                 
                 >
                     {this.props.value}</p>
+            </div>
             </div>
         )
     }

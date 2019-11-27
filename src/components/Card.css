@@ -1,19 +1,45 @@
+body{
+    background-color: rgb(50, 165, 35);
+}
+
+
 .App{
-    height: 100vh;
+    height: 50vh;
     text-align: center;
     display: flex;
+    
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    
 
+}
+
+.MainJoueur{
+    
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.CarteJouee{
+    height: 50vh;
+}
+
+.Adversaire{
+    height: 50vh;
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
 }
 
 
 
 .Card{
     background-color: antiquewhite;
-    width: 15rem;
-    height: 25rem;
+    width: 10rem;
+    height: 15rem;
     text-align: center;
     border-radius: 20px;
     display: flex;
@@ -29,7 +55,7 @@
 
 .Card p{
     color: red;
-    font-size: 10em;
+    font-size: 5em;
     align-self: center;
     
    
