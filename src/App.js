@@ -1,24 +1,32 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Card from './components/Card'
 
 function App() {
+
+
+  let cards = [
+    {value : 5, color : 'black'},
+    {value : 10, color : 'red'},
+    {value : 2, color : 'red'},
+    {value : 1, color : 'black'}
+  ]
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      {
+        cards.map((card)=>{
+          return <Card value={card.value}/>
+
+        })
+      }
+
+      
+     
+      
     </div>
   );
 }
