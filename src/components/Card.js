@@ -12,7 +12,11 @@ export default class Card extends React.Component {
     render(){
         return(
             <div className='Card'>
-                <p>{this.props.value}</p>
+                <p
+                    style={{'color': this.props.color}}
+                
+                >
+                    {this.props.value}</p>
             </div>
         )
     }

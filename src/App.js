@@ -19,7 +19,10 @@ function App() {
 
       {
         cards.map((card)=>{
-          return <Card value={card.value}/>
+          return <Card
+           value={card.value}
+           color={card.color}
+           />
 
         })
       }
