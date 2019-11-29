@@ -7,10 +7,21 @@ function App() {
 
 
   let cards = [
-    {value : 5, color : 'black'},
-    {value : 10, color : 'red'},
+    {value : 1, color : 'black'},
     {value : 2, color : 'red'},
-    {value : 1, color : 'black'}
+    {value : 3, color : 'red'},
+    {value : 4, color : 'black'},
+    {value : 5, color : 'red'},
+    {value : 6, color : 'black'},
+    {value : 7, color : 'red'},
+    {value : 8, color : 'black'},
+    {value : 9, color : 'red'},
+    {value : 10, color : 'black'},
+    {value : 11, color : 'red'},
+    {value : 12, color : 'black'},
+    {value : 13, color : 'red'},
+    {value : 14, color : 'black'},
+    {value : 15, color : 'red'}
   ]
 
   let CardJoue= [
