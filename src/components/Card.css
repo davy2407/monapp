@@ -26,17 +26,22 @@ body{
 }
 
 .Adversaire{
+    border: 1px solid white;
+    
     height: 50vh;
     
     display: flex;
-    flex-wrap: wrap;
+    
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
+    
+    overflow: auto;
 }
 
 
 
 .Card{
+    position: absolute;
     background-color: antiquewhite;
     width: 10rem;
     height: 15rem;

@@ -21,7 +21,19 @@ function App() {
     {value : "?", color: 'black'},
     {value : "?", color: 'black'},
     {value : "?", color: 'black'},
-    {value : "?", color: 'black'}
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'},
+    {value : "?", color: 'black'},
+    
   ]
 
 
