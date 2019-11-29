@@ -2,26 +2,30 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Card from './components/Card'
+import Crop from './images/crop.svg'
+
+
+
 
 function App() {
 
 
   let cards = [
-    {value : 1, color : 'black'},
-    {value : 2, color : 'red'},
-    {value : 3, color : 'red'},
-    {value : 4, color : 'black'},
-    {value : 5, color : 'red'},
-    {value : 6, color : 'black'},
-    {value : 7, color : 'red'},
-    {value : 8, color : 'black'},
-    {value : 9, color : 'red'},
-    {value : 10, color : 'black'},
-    {value : 11, color : 'red'},
-    {value : 12, color : 'black'},
-    {value : 13, color : 'red'},
-    {value : 14, color : 'black'},
-    {value : 15, color : 'red'}
+    {value : 1, color : 'black' },
+    {value : 2, color : 'red',backgroundImage : Crop, backgroundSize : 'contain', backgroundRepeat : 'no-repeat'},
+    {value : 3, color : 'black'},
+    {value : 4, color : 'red'},
+    {value : 5, color : 'black'},
+    {value : 6, color : 'red'},
+    {value : 7, color : 'black'},
+    {value : 8, color : 'red'},
+    {value : 9, color : 'black'},
+    {value : 10, color : 'red'},
+    {value : 11, color : 'black'},
+    {value : 12, color : 'red'},
+    {value : 13, color : 'black'},
+    {value : 14, color : 'red'},
+    {value : 15, color : 'black', }
   ]
 
   let CardJoue= [
@@ -57,6 +61,9 @@ function App() {
           value={card.value}
           color={card.color}
           
+          
+          
+          
           />
         })
       }
@@ -85,6 +92,10 @@ function App() {
           return <Card
            value={card.value}
            color={card.color}
+           backgroundImage={card.backgroundImage}
+           backgroundRepeat={card.backgroundRepeat}
+           backgroundSize={card.backgroundSize}
+           
            />
 
         })

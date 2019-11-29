@@ -10,11 +10,21 @@ export default class Card extends React.Component {
     }
 
     render(){
+        console.log(this.props.backgroundImage)
         return(
             <div className='MainJoueur'>
             <div className='Card'>
+
+            <img src={this.props.backgroundImage
+                    } 
+                
+                />
+
                 <p
-                    style={{'color': this.props.color}}
+                    style={{'color': this.props.color}
+                }
+
+                
                 
                 >
                     {this.props.value}</p>

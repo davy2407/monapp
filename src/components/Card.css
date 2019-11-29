@@ -23,10 +23,11 @@ body{
 }
 .CarteJouee{
     height: 50vh;
+    
 }
 
 .Adversaire{
-    border: 1px solid white;
+   
     
     height: 50vh;
     
@@ -52,16 +53,36 @@ body{
     
     border: 4px solid black;
     margin: 2em;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    
+    
+    
     
     
     
     
 }
 
+
+
+.Card:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 1;
+
+}
+
+
+
 .Card p{
     color: red;
     font-size: 5em;
     align-self: center;
+ 
     
    
 }
