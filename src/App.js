@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Card from './components/Card'
-import Crop from './images/crop.svg'
+import Crop from './images/crop.jpg'
 
 
 
@@ -12,7 +12,7 @@ function App() {
 
   let cards = [
     {value : 1, color : 'black' },
-    {value : 2, color : 'red',backgroundImage : Crop, backgroundSize : 'contain', backgroundRepeat : 'no-repeat'},
+    {value : 2, color : 'red',backgroundImage : Crop},
     {value : 3, color : 'black'},
     {value : 4, color : 'red'},
     {value : 5, color : 'black'},

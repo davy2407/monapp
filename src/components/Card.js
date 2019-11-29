@@ -13,7 +13,7 @@ export default class Card extends React.Component {
         console.log(this.props.backgroundImage)
         return(
             <div className='MainJoueur'>
-            <div className='Card'>
+            <div className='Card' style={{}}>
 
             <img src={this.props.backgroundImage
                     } 

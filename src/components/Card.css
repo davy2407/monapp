@@ -40,8 +40,11 @@ body{
 }
 
 
-
+.Card img {
+    object-fit: cover;
+}
 .Card{
+    overflow: hidden;
     position: absolute;
     background-color: antiquewhite;
     width: 10rem;
@@ -58,6 +61,7 @@ body{
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
     cursor: pointer;
+    background-size: cover ;
     
     
     
