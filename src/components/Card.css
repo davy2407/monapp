@@ -88,8 +88,8 @@ body{
     overflow: hidden;
     position: absolute;
     background-color: antiquewhite;
-    width: 5rem;
-    height: 7.5rem;
+    width: 7rem;
+    height: 12rem;
     text-align: center;
     border-radius: 20px;
     display: flex;

@@ -29,3 +29,36 @@
   color: #09d3ac;
 }
 
+
+.Adversaires{
+  width: 100%;
+  background-color: whitesmoke;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Adversaires .Card{
+  width: 8%;
+  height: 5vh;
+
+}
+
+
+.CarteMisée{
+  width: 100%;
+  background-color: whitesmoke;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Adversaire1{
+  width: 15%;
+  background-color: red;
+  height: 25vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+}

@@ -29,6 +29,8 @@ function App() {
     
   });
 
+  
+
 
   let cards = [
     {value : 1, color : 'red', backgroundImage : Goku  },
@@ -76,22 +78,15 @@ function App() {
     <div className="Global" {...viewport} onViewportChange = {(viewport) => {
       setViewport(viewport);
     }} >
-    <div className="Adversaire">
-      {
-        cardsAdversaire.map((card)=>{
-          return <Card
-          value={card.value}
-          color={card.color}
-          
-          
-          
-          
-          />
-        })
-      }
-
-
+    <div className= "Adversaires">
+      <div className="Adversaire1">Adversaire 1
+        
+      </div>
+      <div className="Adversaire2">Adversaire 2</div>
+      <div className="Adversaire3">Adversaire 3</div>
+      <div className="Adversaire4">Adversaire 4</div>
     </div>
+    
     <div className="CarteJouee">
       {
         CardJoue.map((card)=>{
@@ -103,6 +98,14 @@ function App() {
       }
 
       
+    </div>
+    <div className="CarteMisée">
+      <div className="CarteMisée1">CarteMisée 1</div>
+      <div className="CarteMisée2">CarteMisée 2</div>
+      <div className="CarteMisée3">CarteMisée 3</div>
+      <div className="CarteMisée4">CarteMisée 4</div>
+      <div className="CarteMisée5">CarteMisée 5</div>
+
     </div>
     <div className="App">
 
